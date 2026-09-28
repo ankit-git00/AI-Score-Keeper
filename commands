@@ -1,0 +1,3 @@
+python annotate_court_players.py cleanVideo2.mp4 court_polygon.json --out annotated.avi --show-rejected
+
+python3 mark_court.py cleanVideo2.mp4 --time 53 --out court_polygon_1.json
